@@ -13,9 +13,14 @@
     "noLib": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "target": "es6",
+    "target": "ES2019",
     "allowJs": true
   },
-  "exclude": ["node_modules", "**/*.spec.ts"],
-  "include": ["src/**/*"]
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ],
+  "include": [
+    "src/**/*"
+  ]
 }

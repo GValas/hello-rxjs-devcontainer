@@ -11,9 +11,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "gaussian": "^1.2.0",
+    "mathjs": "^9.3.2",
     "rxjs": "^6.6.7"
   },
   "devDependencies": {
+    "@types/gaussian": "^1.1.2",
+    "@types/mathjs": "^6.0.11",
     "eslint": "^7.24.0",
     "prettier": "^2.2.1",
     "ts-node": "^9.1.1",
