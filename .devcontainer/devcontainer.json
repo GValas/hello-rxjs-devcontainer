@@ -5,16 +5,16 @@
   "appPort": 3000,
   //"runArgs": ["-u", "node"],
   "settings": {
-    "workbench.colorTheme": "Dracula",
     "terminal.integrated.shell.linux": "/bin/bash"
   },
   "postCreateCommand": "npm install",
   "extensions": [
     "esbenp.prettier-vscode",
-    "dracula-theme.theme-dracula",
     "dbaeumer.vscode-eslint",
     "ms-azuretools.vscode-docker",
     "eg2.vscode-npm-script",
-    "msjsdiag.debugger-for-chrome"
+    "msjsdiag.debugger-for-chrome",
+    "eamodio.gitlens",
+    "mhutchie.git-graph"
   ]
 }
